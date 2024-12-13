@@ -1,0 +1,10 @@
+name: Hello
+on: push
+
+jobs: 
+  hello:
+   runs-on: ubundu-latest
+   steps:
+   - name: Hello word
+     run : echo "test"
+     
